@@ -43,13 +43,9 @@ body {
     margin: 0;  
   }  
     
-  .buttons {  
-    display: flex;  
-    flex-direction: column;  
-    flex-wrap: wrap;  
-    justify-content: center;  
-    gap: 20px;  
-    margin-bottom: 40px;  
+  .buttons-right, .buttons-left {  
+    width: 48%;
+    float: left; 
   }  
     
   .button {  
@@ -82,6 +78,7 @@ body {
   }  
     
   .footer {  
+    position: absolute;
     font-size: 14px;  
     margin-top: 20px;  
   }  
