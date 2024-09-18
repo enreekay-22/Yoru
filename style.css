@@ -25,13 +25,12 @@ body {
     margin-bottom: 40px;  
   }  
     
-  .diamond {  
-    width: 20px;  
-    height: 20px;  
-    background-color: #fff;  
-    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);  
-    margin: 0 auto 10px auto;  
-  }  
+    .logo-overlay { 
+      width: 80px;  
+      height: 80px;  
+      margin: 10px;  
+    }
+    
     
   h1 {  
     font-size: 48px;  
@@ -77,16 +76,6 @@ body {
     margin-bottom: 10px;  
   }  
     
-  .footer {  
-    position: absolute;
-    font-size: 14px;  
-    margin-top: 20px;  
-  }  
-    
-  .social {  
-    color: #fff;  
-    text-decoration: none;  
-  }  
     
   .video-container {  
     position: absolute;  
