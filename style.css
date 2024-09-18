@@ -77,17 +77,6 @@ body {
     margin-bottom: 10px;  
   }  
     
-  .footer {  
-    position: absolute;
-    font-size: 14px;  
-    margin-top: 20px;  
-  }  
-    
-  .social {  
-    color: #fff;  
-    text-decoration: none;  
-  }  
-    
   .video-container {  
     position: absolute;  
     top: 0;  
