@@ -3,21 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dump It</title>
-    <link rel="stylesheet" href="dumpitstyle.css">
+    <title>DUMP IT - LET YOURSELF THROUGH</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="vid-contain">  
+             <video autoplay loop muted plays-inline class="background-clip">  
+               <source src="4am shit.mp4" type="video/mp4">  
+             </video>  
+
     <div class="container">
-        <div class="guidelines">
-            <h3>Guidelines:</h3>
-            <p>1. Be anonymous</p>
-            <p>2. Replace the places and names to hide identity.</p>
-        </div>
-        <div class="dump-section">
-            <h2>DUMP IT</h2>
-            <div class="dump-box">
-                <textarea placeholder="TYPE HERE"></textarea>
-                <button>SEND</button>
+        <header>
+            <div class="logo">
+                <h1>DUMP IT</h1>
+            </div>
+            <nav>
+                <a href="#">Archive</a>
+                <a href="#">Shop</a>
+                <a href="#">About</a>
+                <a href="#">Terms</a>
+            </nav>
+        </header>
+        
+        <div class="submit-post">
+            <h2>Submit a Post</h2>
+            <div class="post-form">
+                <div class="post-header">
+                    <label for="name">To:</label>
+                    <input type="text" id="name" placeholder="Enter Name">
+                </div>
+                <textarea placeholder="Type Your Message Here..."></textarea>
+                <div class="color-picker">
+                    <!-- Color boxes with predefined colors -->
+                    <div class="color-box" style="background-color: #f28e8e;"></div>
+                    <div class="color-box" style="background-color: #f7e3af;"></div>
+                    <div class="color-box" style="background-color: #a3d6d2;"></div>
+                    <div class="color-box" style="background-color: #86afdc;"></div>
+                    <div class="color-box" style="background-color: #c8a1e8;"></div>
+                    <div class="color-box" style="background-color: #ffd166;"></div>
+                </div>
+                <div class="buttons">
+                    <button class="submit-btn">Send</button>
+                    <button class="back-btn">Back</button>
+                </div>
+            </div>
+            <div class="terms">
+                <input type="checkbox" id="agree">
+                <label for="agree">I agree to the <a href="#">terms of submission</a>.</label>
             </div>
         </div>
     </div>
